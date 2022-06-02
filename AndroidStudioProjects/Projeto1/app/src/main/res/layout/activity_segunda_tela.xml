@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    tools:context=".SegundaTela">
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="62dp"
+        android:autofillHints="@string/nomezin"
+        android:ems="10"
+        android:hint="@string/nomezin"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="180dp"
+        android:autofillHints="@string/emailbolado"
+        android:ems="10"
+        android:hint="@string/emailbolado"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.Material.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:background="@color/black"
+        android:backgroundTint="#F76E11"
+        android:backgroundTintMode="add"
+        android:foregroundTint="@color/purple_200"
+        android:indeterminateTint="@color/white"
+        android:progressTintMode="src_in"
+        android:secondaryProgressTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/black"
+        android:foregroundTint="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        android:text="Finalizado"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="96dp"
+        android:buttonTint="#F44336"
+        android:drawableTint="@color/black"
+        android:foregroundTint="#122691"
+        android:minHeight="48dp"
+        android:text="@string/switch14"
+        android:textSize="20sp"
+        android:thumbTint="@android:color/holo_orange_dark"
+        android:trackTint="@android:color/holo_orange_light"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

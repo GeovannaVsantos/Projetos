@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Projeto1</string>
+    <string name="chb">CAMP HALF BLOOD</string>
+    <string name="botao1" >Botao inicial</string>
+    <string name="todo">TODO</string>
+    <string name="nomezin">Nome</string>
+    <string name="emailbolado">Email</string>
+    <string name="switch14">RECEBER NOTIFICAÇÕES</string>
+</resources>
