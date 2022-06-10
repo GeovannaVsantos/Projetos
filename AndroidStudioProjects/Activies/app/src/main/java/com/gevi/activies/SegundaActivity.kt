@@ -8,4 +8,5 @@ class SegundaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_segunda)
     }
+
 }
