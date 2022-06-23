@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/listFragmento">
+
+    <fragment
+        android:id="@+id/listFragmento"
+        android:name="com.gevi.sqlcomroom.ListFragmento"
+        android:label="fragment_list_fragmento"
+        tools:layout="@layout/fragment_list_fragmento" >
+        <action
+            android:id="@+id/action_listFragmento_to_addFragmento"
+            app:destination="@id/addFragmento"
+            app:popUpTo="@id/addFragmento"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragmento"
+        android:name="com.gevi.sqlcomroom.addFragmento"
+        android:label="fragment_add_fragmento"
+        tools:layout="@layout/fragment_add_fragmento" >
+        <action
+            android:id="@+id/action_addFragmento_to_listFragmento"
+            app:destination="@id/listFragmento"
+            app:popUpTo="@id/listFragmento" />
+    </fragment>
+</navigation>
