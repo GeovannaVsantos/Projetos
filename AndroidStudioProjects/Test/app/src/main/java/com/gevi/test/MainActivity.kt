@@ -6,12 +6,15 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
+import dagger.hilt.android.AndroidEntryPoint
 import kotlin.math.log
 
+
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.cardlayout)
         Log.d("Ciclo", "OnCreate")
 
     }
